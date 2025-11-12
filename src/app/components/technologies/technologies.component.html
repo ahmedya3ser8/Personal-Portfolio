@@ -1,0 +1,12 @@
+<section class="py-10">
+  <div class="container">
+    <h1 data-aos="fade-down" class="text-3xl lg:text-5xl font-bold text-main mb-10">Technologies</h1>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+      @for (technology of technologiesList(); track technology.id) {
+        <div data-aos="fade-up" class="box h-36 bg-[#0B1120] flex items-center justify-center border-4 border-neutral-800 rounded-lg transition duration-700 hover:scale-105">
+          <img [src]="technology.image" loading="lazy" class="w-20" [alt]="technology.title" />
+        </div>
+      }
+    </div>
+  </div>
+</section>

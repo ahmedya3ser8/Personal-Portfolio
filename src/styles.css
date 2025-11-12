@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-main: #06B6D4;
+  --color-pargraph: #94A3B8;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-6 md:px-14 lg:px-20 xl:px-[120px]
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 80px;
+}
+
+body {
+  background-color: #0B1120;
+  color: #E2E8F0;
+  font-family: cursive;
+}
