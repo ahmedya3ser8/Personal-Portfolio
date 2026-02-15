@@ -7,7 +7,7 @@ export const angularData: IProject[] = [
     title: 'Eastern Travel',
     description: "Developed a responsive frontend for a travel and transportation company that allows users to easily book trips, explore destinations, and learn about the company’s services.",
     langs: ['HTML', 'CSS', 'TailwindCss', 'Angular', 'Typescript'],
-    websiteDemo: 'https://eastern-frontend-demo-v1.netlify.app/'
+    websiteDemo: 'https://www.easternlimos.com'
   },
   {
     id: 'f71b8d92',
@@ -27,11 +27,11 @@ export const angularData: IProject[] = [
   },
   {
     id: '1a23d08l',
-    image: '/images/kamur.png',
-    title: 'Kamur',
-    description: "Kamur is a modern landing page built with Angular to showcase the Kamur mobile application, featuring a clean UI and smooth user experience. It supports both Arabic and English, offering a fully responsive.",
+    image: '/images/tegrow.png',
+    title: 'TeGrow',
+    description: "TeGrow appears to be a professional digital agency website designed to present a company that helps businesses grow through modern digital solutions, featuring a clean UI and smooth user experience. It supports both Arabic and English, offering a fully responsive.",
     langs: ['HTML', 'CSS', 'TailwindCss', 'Angular', 'Typescript'],
-    websiteDemo: 'https://kamur.vercel.app/'
+    websiteDemo: 'https://tegrow.vercel.app'
   }
 ]
 

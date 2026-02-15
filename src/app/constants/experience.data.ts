@@ -12,7 +12,7 @@ export const experiencesData: IExperience[] = [
     id: '9f13c9d8',
     date: 'Aug 2025 - Nov 2025',
     title: 'Frontend Developer | Freelance',
-    description: 'A frontend freelancer builds and designs responsive, user-facing web interfaces using HTML, CSS, and JavaScript frameworks like Angular or React',
-    langs: ['HTML', 'CSS', 'Angular', 'Typescript', 'TailwindCss', 'ReactJs']
+    description: 'A frontend freelancer builds and designs responsive, user-facing web interfaces using HTML, CSS, and JavaScript frameworks like Angular',
+    langs: ['HTML', 'CSS', 'Angular', 'Typescript', 'TailwindCss', 'JavaScript', 'Sass']
   }
 ]

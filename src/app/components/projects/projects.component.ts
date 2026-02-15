@@ -1,10 +1,10 @@
 import { Component, OnInit, signal } from '@angular/core';
 
-import { angularData, jsData, reactData } from '../../constants/projects.data';
+import { angularData, jsData } from '../../constants/projects.data';
 import { IProject } from '../../models/iproject';
 
 interface ITab {
-  tab: 'js' | 'react' | 'angular',
+  tab: 'js' | 'angular',
   content: string
 }
 
@@ -19,7 +19,6 @@ export class ProjectsComponent implements OnInit {
   activeTab = signal<'js' | 'react' | 'angular'>('angular');
   tabsList = signal<ITab[]>([
     { tab: 'js', content: 'Html & Js' },
-    { tab: 'react', content: 'ReactJs' },
     { tab: 'angular', content: 'Angular' }
   ]);
   ngOnInit(): void {
@@ -30,15 +29,12 @@ export class ProjectsComponent implements OnInit {
       case 'js':
         this.projectsList.set(jsData);
         break;
-      case 'react':
-        this.projectsList.set(reactData);
-        break;
       case 'angular':
         this.projectsList.set(angularData);
         break;
     }
   }
-  selectedTab(tab: 'js' | 'react' | 'angular'): void {
+  selectedTab(tab: 'js' | 'angular'): void {
     console.log(tab);
     this.activeTab.set(tab);
     this.loadProjects(tab);
