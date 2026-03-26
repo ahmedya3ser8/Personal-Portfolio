@@ -6,7 +6,7 @@ export const angularData: IProject[] = [
     image: '/images/eastern.png',
     title: 'Eastern Travel',
     description: "Developed a responsive frontend for a travel and transportation company that allows users to easily book trips, explore destinations, and learn about the company’s services.",
-    langs: ['HTML', 'CSS', 'TailwindCss', 'Angular', 'Typescript'],
+    langs: ['TailwindCss', 'Angular', 'Typescript'],
     websiteDemo: 'https://www.easternlimos.com'
   },
   {
@@ -14,43 +14,43 @@ export const angularData: IProject[] = [
     image: '/images/trendify.png',
     title: 'Trendify Ecommerce',
     description: "Built and deployed a responsive ecommerce website using Angular Primng and Tailwind CSS, featuring productList, category filtering, cart management, and a modern, user-friendly shopping interface.",
-    langs: ['HTML', 'CSS', 'TailwindCss', 'Angular', 'Typescript'],
-    websiteDemo: 'https://trendify-eco.vercel.app/'
-  },
-  {
-    id: '2a94d38c',
-    image: '/images/social-app.png',
-    title: 'Social App',
-    description: "Built a simple social media app using Angular and Tailwind CSS, featuring user authentication (login/register), post creation, update, and deletion, plus interactive comment functionality",
-    langs: ['HTML', 'CSS', 'TailwindCss', 'Angular', 'Typescript'],
-    websiteDemo: 'https://socialapp-jade.vercel.app/'
+    langs: ['TailwindCss', 'Angular', 'Typescript'],
+    websiteDemo: 'https://trendify-eco.vercel.app'
   },
   {
     id: '1a23d08l',
     image: '/images/tegrow.png',
     title: 'TeGrow',
     description: "TeGrow appears to be a professional digital agency website designed to present a company that helps businesses grow through modern digital solutions, featuring a clean UI and smooth user experience. It supports both Arabic and English, offering a fully responsive.",
-    langs: ['HTML', 'CSS', 'TailwindCss', 'Angular', 'Typescript'],
-    websiteDemo: 'https://tegrow.vercel.app'
+    langs: ['TailwindCss', 'Angular', 'Typescript'],
+    websiteDemo: 'https://tegrow-v1.vercel.app'
   }
 ]
 
 export const reactData: IProject[] = [
   {
-    id: '4e32sd5p',
-    image: '/images/employee.png',
-    title: 'Employee Crud',
-    description: "Simple Crud using reactjs and material Ui, add employee, edit employee, update employee and delete employee",
-    langs: ['HTML', 'CSS', 'Material UI', 'TypeScript' ,'ReactJs'],
-    websiteDemo: 'https://employees-crud-ecru.vercel.app/'
+    id: 'f71b8d92',
+    image: '/images/trendify.png',
+    title: 'Trendify Ecommerce',
+    description: "Built and deployed a responsive ecommerce website using Reactjs, react-query, shadcnui and Tailwind CSS, featuring productList, category filtering, cart management, and a modern, user-friendly shopping interface.",
+    langs: ['TailwindCss', 'ReactJs', 'Typescript', 'React-Query', 'Shadcnui'],
+    websiteDemo: 'https://trendify-v1.vercel.app'
   },
   {
     id: '4ekhdsd5p',
     image: '/images/gallery.png',
     title: 'Products Gallery',
     description: "Products Gallery is a simple ecommerce-style application featuring a product listing interface with add-to-cart functionality and a smooth, responsive UI. It also includes a built-in dark mode for an enhanced browsing experience across devices",
-    langs: ['HTML', 'CSS', 'TailwindCss', 'TypeScript' ,'ReactJs'],
+    langs: ['TailwindCss', 'TypeScript' ,'ReactJs'],
     websiteDemo: 'https://products-gallery-kappa.vercel.app/'
+  },
+  {
+    id: '8ekhdsllp',
+    image: '/images/chatify.png',
+    title: 'Chatify App',
+    description: "Chatify is a modern real-time chat application built with ReactJS for a fast and dynamic user experience. It uses Tailwind CSS to deliver a clean, responsive, and visually appealing interface. State management is handled efficiently using Zustand, ensuring smooth and scalable interactions. The app enables seamless messaging, making communication simple, fast, and user-friendly.",
+    langs: ['TailwindCss', 'TypeScript' ,'ReactJs', 'Zustand', 'Socket.IO', 'DasyUI'],
+    websiteDemo: 'https://chatify-app-v1.vercel.app'
   },
 ]
 
@@ -96,3 +96,25 @@ export const jsData: IProject[] = [
     websiteDemo: 'https://ahmedya3ser8.github.io/Weather_app/'
   },
 ]
+
+/**
+
+{
+  id: '2a94d38c',
+  image: '/images/social-app.png',
+  title: 'Social App',
+  description: "Built a simple social media app using Angular and Tailwind CSS, featuring user authentication (login/register), post creation, update, and deletion, plus interactive comment functionality",
+  langs: ['HTML', 'CSS', 'TailwindCss', 'Angular', 'Typescript'],
+  websiteDemo: 'https://socialapp-jade.vercel.app/'
+},
+
+{
+  id: '4e32sd5p',
+  image: '/images/employee.png',
+  title: 'Employee Crud',
+  description: "Simple Crud using reactjs and material Ui, add employee, edit employee, update employee and delete employee",
+  langs: ['HTML', 'CSS', 'Material UI', 'TypeScript' ,'ReactJs'],
+  websiteDemo: 'https://employees-crud-ecru.vercel.app/'
+},
+
+ */

@@ -1,4 +1,5 @@
 import { Component, OnInit, signal, WritableSignal } from '@angular/core';
+
 import { technologyData } from '../../constants/technology.data';
 import { ITechnology } from '../../models/itechnology';
 
